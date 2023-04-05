@@ -8,7 +8,7 @@ packages = [{include = "teste_pip_install"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-rich = "^13.3.3"
+rich = "^12.0.0"
 
 
 [build-system]
