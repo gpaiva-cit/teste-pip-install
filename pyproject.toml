@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "teste-pip-install"
+version = "0.1.0"
+description = ""
+authors = ["gpaiva-cit <gpaiva@ciandt.com>"]
+readme = "README.md"
+packages = [{include = "teste_pip_install"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
